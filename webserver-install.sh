@@ -19,6 +19,10 @@ $STD apt-get install -y sudo
 $STD apt-get install -y mc
 msg_ok "Installed Dependencies"
 
+msg_info "Testing file creation"
+$STD touch /testingfile
+msg_ok "File Created"
+
 motd_ssh
 customize
 
