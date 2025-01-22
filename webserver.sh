@@ -14,6 +14,7 @@ var_ram="512"
 var_disk="8"
 var_os="ubuntu"
 var_version="24.04"
+var_unprivileged="priviledged"
 
 # App Output & Base Settings
 header_info "$APP"
