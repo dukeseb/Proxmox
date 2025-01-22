@@ -21,7 +21,7 @@ msg_ok "Installed Dependencies"
 
 msg_info "Paste In your RAW Bash Script"
 read bashscript
-$STD bash -c "$(wget -qLO - $bashscript)"
+bash -c "$(wget -qLO - $bashscript)"
 
 motd_ssh
 customize
