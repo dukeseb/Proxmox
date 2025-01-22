@@ -19,7 +19,7 @@ $STD apt-get install -y sudo
 $STD apt-get install -y mc
 msg_ok "Installed Dependencies"
 
-msg_info "Input Bash Script"
+msg_info "Paste In your RAW Bash Script"
 read bashscript
 $STD bash -c "$(wget -qLO - $bashscript)"
 
