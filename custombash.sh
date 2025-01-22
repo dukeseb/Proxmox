@@ -11,7 +11,7 @@ APP="Custom BASH"
 var_tags="os"
 var_cpu="1"
 var_ram="512"
-var_disk="8"
+var_disk="2"
 var_os="ubuntu"
 var_version="24.04"
 
