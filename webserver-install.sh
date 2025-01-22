@@ -20,7 +20,7 @@ $STD apt-get install -y mc
 msg_ok "Installed Dependencies"
 
 msg_info "Running BASH Script"
-$STD bash -c "$(wget -qLO - https://raw.githubusercontent.com/dukeseb/bash/refs/heads/main/webserver.sh)"
+$STD bash -c "$(wget -qLO - https://raw.githubusercontent.com/dukeseb/bash/refs/heads/main/domain.sh)"
 
 motd_ssh
 customize
